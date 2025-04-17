@@ -1,0 +1,33 @@
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #374151;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 500ms ease-out;
+}
+
+.yellow::-webkit-slider-thumb {
+    width: 12px;
+    height: 12px;
+}
+
+
+
+.slider::-webkit-slider-runnable-track {
+    background: #374151;
+    height: 1px;
+}
+
+.yellow::-webkit-slider-runnable-track {
+    background: #ffc801;
+    height: 2px;
+}
